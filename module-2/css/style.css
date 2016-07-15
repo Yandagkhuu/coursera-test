@@ -102,8 +102,9 @@ p{
 .Section1, .Section2, .Section3 {
     position: relative;
     text-align: justify;
+    overflow: ellipsis;
     width: 31%;
-    height: 600px;
+    height: 500px;
     margin: 1%;
     float: left;
     padding: 10px;
@@ -117,7 +118,8 @@ p{
     position: relative;
     text-align: justify;
     width: 48%;
-    height: 400px;
+    height: 300px;
+    overflow: ellipsis;
     margin: 1%;
     float: left;
     padding: 10px;
