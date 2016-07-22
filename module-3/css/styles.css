@@ -118,9 +118,7 @@ button .icon-bar {
     left: 50%;
 }
 
-h2, h3 {
-    color: #B2151B;
-}
+
 /********** Large Desktop: Extra Large devices only ********/
 @media (min-width: 1200px) {
     .section-block {
