@@ -1,0 +1,145 @@
+
+body {
+    font-size: 16px;
+    background-color:white;
+    font-family: 'Actor', sans-serif;
+    padding-top: 60px;
+}
+
+a {color: Crimson; 
+    font-style: bold;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    }
+/* unvisited link */
+a:link {
+    color: crimson;
+}
+
+/* visited link */
+.word a:visited {
+    color: orange;
+}
+
+/* mouse over link */
+a:hover {
+    color: orange;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a{
+
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#nav-list a:hover {
+    background: #EEE;
+    color: crimson;
+    text-decoration: underline;
+}
+
+/* HEADER */
+#header-nav {
+    background-color: #B2151B;
+    border-radius: 0;
+    border: 0;
+
+}
+
+button .icon-bar {
+    border: 1px solid white;
+}
+
+.icon-bar:active {
+    border: 1px solid crimson;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid white;
+}
+
+
+}
+
+.navbar-brand {
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-brand h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 0px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#page-title {
+    margin: 30px;
+    font-weight: bold;
+}
+
+
+.section-block {
+    position: relative;
+    padding: 20px 20px 30px 20px;
+    margin-bottom: 20px;
+    background-color: #FFF;
+    border: 2px solid crimson;
+   
+}
+
+.section-title {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+
+.section-content {
+    text-align: justify;
+    overflow: hidden;
+}
+
+.top {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+}
+/********** Large Desktop: Extra Large devices only ********/
+@media (min-width: 1200px) {
+    .section-block {
+        height: 1080px;
+    }
+}
+
+/********** Desktop: Large devices only **********/
+@media (min-width: 992px) and (max-width: 1199) {
+  
+}
+
+/********** Tablet: Medium devices only **********/
+@media (min-width: 767px) and (max-width: 991px) {
+    #section-1, #section-2 {
+        height: 1100px;
+    }   
+    #section-3 {
+        height: auto;
+    }
+}
+
+/********** Smartphone: Extra small devices only **********/
+@media (max-width: 767px){
+
+}
