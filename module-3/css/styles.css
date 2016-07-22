@@ -11,12 +11,9 @@ a {color: Crimson;
     }
 /* unvisited link */
 a:link {
-    color: crimson;
+    color: #111;
 }
 
-.word a:link {
-    color: 000;
-}
 
 /* visited link */
 .word a:visited {
