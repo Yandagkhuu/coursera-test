@@ -10,6 +10,9 @@ a {
     font-family: Arial, Arial, Helvetica, sans-serif;
     text-decoration: underline;
     }
+.word a { 
+    text-decoration: underline;
+    }
 /* unvisited link */
 a:link {
     color: #333;
