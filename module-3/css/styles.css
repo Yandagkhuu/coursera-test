@@ -120,6 +120,7 @@ button .icon-bar {
     position: absolute;
     bottom: 10px;
     left: 50%;
+    height: 1.5em;
 }
 
 
