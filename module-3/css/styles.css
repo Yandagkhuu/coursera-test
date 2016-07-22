@@ -46,7 +46,7 @@ a:active {
 #nav-list a:hover {
     background: #EEE;
     color: crimson;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 /* HEADER */
@@ -121,9 +121,6 @@ button .icon-bar {
     left: 50%;
 }
 
-li {
-    text-decoration: none;
-}
 
 /********** Large Desktop: Extra Large devices only ********/
 @media (min-width: 1200px) {
