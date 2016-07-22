@@ -15,9 +15,13 @@ a:link {
     color: crimson;
 }
 
+.word a:link {
+    color: blue;
+}
+
 /* visited link */
 .word a:visited {
-    color: blue;
+    color: crimson;
 }
 
 /* mouse over link */
