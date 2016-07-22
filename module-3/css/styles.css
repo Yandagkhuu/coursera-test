@@ -8,26 +8,27 @@ body {
 a {color: Crimson; 
     font-style: bold;
     font-family: Arial, Arial, Helvetica, sans-serif;
+    text-decoratoin: underline;
     }
 /* unvisited link */
 a:link {
-    color: #111;
+    color: #555;
 }
 
 
 /* visited link */
 .word a:visited {
-    color: #222;
+    color: #555;
 }
 
 /* mouse over link */
 a:hover {
-    color: orange;
+    color: crimson;
 }
 
 /* selected link */
 a:active {
-    color: blue;
+    color: red;
 }
 
 #nav-list {
