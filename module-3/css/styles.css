@@ -26,7 +26,6 @@ a:visited {
 /* mouse over link */
 a:hover {
     color: crimson;
-    text-decoration:none;
 }
 
 /* selected link */
@@ -122,6 +121,9 @@ button .icon-bar {
     left: 50%;
 }
 
+li {
+    text-decoration: none;
+}
 
 /********** Large Desktop: Extra Large devices only ********/
 @media (min-width: 1200px) {
