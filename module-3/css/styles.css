@@ -69,8 +69,6 @@ button .icon-bar {
 }
 
 
-}
-
 .navbar-brand {
     color: white;
     padding-top: 15px;
@@ -120,7 +118,6 @@ button .icon-bar {
     position: absolute;
     bottom: 10px;
     left: 50%;
-    color: crimson;
 }
 
 
